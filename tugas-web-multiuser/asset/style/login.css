@@ -1,0 +1,104 @@
+/* ----------- Body ----------- */
+body {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url("../icons/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: 16px/18px arial;
+  z-index: 1;
+}
+
+/* navbar */
+body nav .container-fluid a img {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+/* container */
+body .container {
+  color: white;
+
+  margin-top: 20px;
+}
+
+/* title */
+body .container .row .col-5 h2 {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* description */
+body .container .row .col-12 h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: default;
+}
+
+/* form */
+form .form-group label,
+form .form-check label {
+  cursor: pointer;
+}
+
+form .form-group input {
+  outline: none;
+  color: white;
+  background-color: rgba(34, 34, 34, 1);
+  outline: none;
+  border: none;
+}
+
+form .form-check input {
+  cursor: pointer;
+}
+
+form .form-check a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+form .form-check a:hover {
+  color: white;
+}
+
+#login {
+  width: 100%;
+  background-image: linear-gradient(to right bottom, red, yellow);
+  font-weight: bold;
+
+  outline: none;
+  border: none;
+}
+
+#login:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 255, 0, 0.8)
+  );
+
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+form .form-register {
+  text-align: center;
+}
+
+form .form-register p {
+  cursor: default;
+}
+
+form .form-register p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+form .form-register p a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}

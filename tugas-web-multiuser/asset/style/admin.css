@@ -1,0 +1,84 @@
+/* ----------- Body ----------- */
+body {
+  background-color: rgba(18, 18, 18, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: 16px/18px arial;
+  z-index: 1;
+}
+
+/* navbar */
+body nav {
+  background-color: rgba(15, 15, 15, 1);
+}
+
+body nav .container-fluid a img {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+body nav .container-fluid .fa-pull-right .navbar-collapse ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+/* container */
+body .container {
+  color: white;
+
+  margin-top: 20px;
+}
+
+/* title */
+body .container .row .col-12 h1 {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+table thead tr th {
+  color: yellow;
+}
+
+/* ^^^^^^^^ PAGE ^^^^^^^^ */
+.page {
+  width: 1000px;
+  box-sizing: border-box;
+
+  margin: 5px auto 64px auto;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.page a {
+  text-decoration: none;
+}
+
+.page .kotak {
+  width: 40px;
+  height: 40px;
+
+  box-sizing: border-box;
+  margin: 2px;
+  padding: 0;
+  border-radius: 30%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid white;
+  text-align: center;
+  line-height: 35px;
+
+  color: white;
+  font-weight: bold;
+}
+
+.page .kotak:hover {
+  cursor: pointer;
+  border: 3px solid rgba(255, 210, 0, 1);
+  color: rgba(255, 210, 0, 1);
+}

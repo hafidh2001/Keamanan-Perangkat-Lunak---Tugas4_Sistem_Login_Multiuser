@@ -1,0 +1,89 @@
+/* ----------- Body ----------- */
+body {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url("../icons/background-register.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: 16px/18px arial;
+  z-index: 1;
+}
+
+/* navbar */
+body nav .container-fluid a img {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+/* container */
+body .container {
+  color: white;
+
+  margin-top: 20px;
+}
+
+/* title */
+body .container .row .col-5 h2 {
+  text-align: center;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* description */
+body .container .row .col-12 h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: default;
+}
+
+/* form */
+form .form-group label {
+  cursor: pointer;
+}
+
+form .form-group input {
+  outline: none;
+  color: white;
+  background-color: rgba(34, 34, 34, 1);
+  outline: none;
+  border: none;
+}
+
+#register {
+  width: 100%;
+  background-image: linear-gradient(to right bottom, red, yellow);
+  font-weight: bold;
+
+  outline: none;
+  border: none;
+}
+
+#register:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 255, 0, 0.8)
+  );
+
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+#back {
+  width: 100%;
+  background-color: rgba(25, 25, 25, 1);
+  font-weight: bold;
+
+  outline: none;
+  border: none;
+  color: white;
+}
+
+#back:hover {
+  background-color: rgba(25, 25, 25, 0.7);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
